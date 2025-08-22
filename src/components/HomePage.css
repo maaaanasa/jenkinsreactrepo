@@ -1,0 +1,45 @@
+/* Main layout */
+.homepage {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sidebar nav a {
+  display: block;
+  margin: 12px 0;
+  text-decoration: none;
+  color: #ddd;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.sidebar nav a:hover {
+  color: #fff;
+  padding-left: 5px;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 20px;
+  background: white;
+  color: #333;
+  border-left: 1px solid #ccc;
+}
